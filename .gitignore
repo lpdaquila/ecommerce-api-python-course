@@ -1,0 +1,79 @@
+# Python
+*.pyc
+__pycache__/
+.venv/
+env/
+venv/
+instance/
+*.egg-info
+.coverage
+
+# Logs
+logs/
+*.log
+
+# Databases
+*.sqlite
+*.db
+
+# Uploads
+uploads/
+
+# Static and Media (se forem gerados dinamicamente)
+static/
+media/
+
+# Configuration (mantenha seus arquivos de configuração de produção seguros!)
+*.ini
+*.cfg
+config.py  # Se você tiver um arquivo de configuração local, ignore a versão de produção
+
+# Secrets (NUNCA commite segredos!)
+.env
+.flaskenv
+secrets.json
+api_keys.txt
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+eggs/
+.eggs/
+lib64/
+lib/
+sdist/
+wheel/
+pip-log.txt
+pip-delete-this.txt
+*.whl
+.ipynb_checkpoints/
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.vm*
+*.iml
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Docker
+Dockerfile*
+docker-compose*
+
+# Outros arquivos específicos do seu projeto
+# Exemplo: arquivos de teste
+test_*.py
+tests/
